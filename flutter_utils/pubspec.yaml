@@ -1,0 +1,47 @@
+name: flutter_utils
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.1 <4.0.0" #dart版本
+  flutter: ">=3.22.1" #制定flutter版本
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.39 #适用于Flutter的功能丰富的音频播放器。支持从任何来源（资产/文件/URL/流）以各种音频格式循环、剪辑和连接任何声音，具有无间断的播放。
+  audio_session: ^0.1.20 #为您的应用设置iOS音频会话类别和Android音频属性，并管理您应用的音频焦点、混音和降低音量行为。
+  provider: 6.1.2 #状态管理
+  json_annotation: 4.9.0 #数据模型转换
+  intl: any
+  flutter_localization: 0.2.0
+  siri_wave: ^2.0.0+1 #创建视觉上令人惊叹的波形，类似于 Siri 中的波形
+  lottie: ^3.1.2 #动画
+  animated_text_kit: ^4.2.2
+  # shimmer_animation: ^2.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/profile.character.1.png
+    - assets/talking.png
+    - assets/kaixue.json
+    - assets/data.json
+    - assets/loading.bg.image.png
+    - assets/loading.black.png
+    - assets/loading.guangxiao.1.png
+    - assets/loading.guangxiao.2.png
+    - assets/loading.left.dot.png
+    - assets/loading.logo.ainia.png
+    - assets/loading.men.guangxiao.png
+    - assets/loading.men.png
+    - assets/loading.right.head.png
+    - assets/loading.zi.saotu.png
+flutter_intl:
+  enabled: true
